@@ -1,0 +1,57 @@
+.jumbotron {
+    
+ 
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./inside-banner-circuit-board.jpg);
+}
+
+.jumbotron a{
+    color: rgb(106, 106, 255);
+
+}
+
+
+a:hover{
+    color: rgb(122, 168, 255);
+}
+.jumbotron h1, p{
+    color: white;
+    text-shadow: 0 1px 0 black;
+}
+
+body{
+    background-color: rgb(64, 64, 255);
+}
+
+
+h1{
+    font-size: 600%;
+}
+
+a{
+
+}
+
+
+.jumbotron P{
+    font-size: 200%;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 175%;
+}
+
+p{
+    text-align: center;
+    font-size: 125%;
+}
+
+.jumbotron 
+.container{
+}
