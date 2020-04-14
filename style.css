@@ -10,7 +10,9 @@
 }
 
 .jumbotron a{
-    color: rgb(106, 106, 255);
+    color: #0898C7;
+    text-decoration: underline;
+    
 
 }
 
@@ -24,7 +26,7 @@ a:hover{
 }
 
 body{
-    background-color: rgb(64, 64, 255);
+    background-color: #0898C7;
 }
 
 
@@ -32,8 +34,49 @@ h1{
     font-size: 600%;
 }
 
-a{
+.header {
+    background-color: #77C2AB;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 8px 8px 4px grey;
+    margin-top: 0px;
+    margin-right: 8px;
+  }
+  
+  .header h4 {
+    padding-top: 8px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
 
+.sidenav a:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+
+.sidenav {
+    height: 80%;
+    background-color: #8ce991;
+    padding-top: 0px;
+    box-shadow: 8px 8px 4px grey;
+    margin-right: 8px; 
+}
+
+.sidenav a {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffFFFF;
+    display: block;
+
+    
 }
 
 
@@ -51,7 +94,21 @@ p{
     text-align: center;
     font-size: 125%;
 }
+.jumbotron{
+    height: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
-.jumbotron 
-.container{
+.col-sm-3{
+    padding-top: 40px;
+    border: #047195;
+    border-style: solid;
+    margin-left: 8px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 3px grey;
+}
+
+.row{
+    
 }
