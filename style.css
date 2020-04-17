@@ -16,7 +16,9 @@
 
 }
 
-
+html {
+    font-size: 100%; // In most browsers, this defaults to 16 pixels
+  }
 
 a:hover{
     color: rgb(122, 168, 255);
@@ -24,6 +26,7 @@ a:hover{
 .jumbotron h1, p{
     color: white;
     text-shadow: 0 1px 0 black;
+    font-size: 4rem;
 }
 
 body{
