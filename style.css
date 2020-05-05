@@ -104,7 +104,14 @@ p{
 
 }
 
+.extra{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8rem;
+    line-height: 65px;
 
+    
+}
 
 .col-sm-3:hover{
     box-shadow: 10px 10px 7px #708090;
@@ -119,4 +126,70 @@ p{
 .col-lg:hover{
     box-shadow: 10px 10px 7px #708090;
     background-color: #047195;
+}
+
+.firewall{
+    
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./firewall.jpg);
+}
+.data{
+    
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./datacenterpic.jpg);
+}
+
+.WFH{
+    
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./WFH.jpg);
+}
+
+.Hardware{
+    
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./Hardware-Installations.jpg);
+}
+
+.Networking{
+    
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./networking_switches.jpg);
+}
+
+.General{
+    
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./General.png);
+}
+
+.badge{
+    margin-left: 11.5em;
+    font-size: 2em;
+    margin-bottom: 1em;
+
 }
