@@ -3,16 +3,16 @@
  
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
     ),
     url(./inside-banner-circuit-board.jpg);
+    margin-bottom: 0px;
 }
 
 .jumbotron a{
     color: #0898C7;
     text-decoration: underline;
-    
 
 }
 
@@ -38,56 +38,42 @@ h1{
     font-size: 600%;
 }
 
-.header {
-    background-color: #77C2AB;
-    height: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: 8px 8px 4px grey;
-    margin-top: 0px;
-    margin-right: 8px;
-    margin-left: 20px;
-  }
   
+  .parallax {
+    /* The image used */
+    background-image: url("touch_translucient_icons.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .header h4 {
     padding-top: 8px;
     font-size: 24px;
     color: #ffffff;
     text-align: center;
   }
-  
 
-.sidenav a:hover{
-	color: #000000;
-	background-color: #ffffff;
-}
+.navbar{
+    opacity: 0.8;
 
-
-.sidenav {
-    height: 80%;
-    background-color: #8ce991;
-    padding-top: 0px;
-    box-shadow: 8px 8px 4px grey;
-    margin-right: 8px; 
-    margin-left: 20px;
-}
-
-.sidenav a {
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 8px;
-    padding-bottom: 6px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #ffFFFF;
-    display: block;
-
-    
 }
 
 
 .jumbotron P{
     font-size: 200%;
+}
+
+.col-lg h1{
+    font-size: 5rem;
+    color: #ffffff;
+    text-align: center;
 }
 
 h3{
@@ -109,12 +95,11 @@ p{
 .col-sm-3{
     padding-top: 40px;
     border: #047195;
-    border-style: solid;
-    margin-left: 12px;
-    
+    border-style: solid; 
     transition: all 300ms;
 
 }
+
 
 
 .col-sm-3:hover{
@@ -122,6 +107,12 @@ p{
     background-color: #047195;
 }
 
-.row{
-    
+.col-lg{
+    padding-top: 40px;
+    transition: all 300ms;
+}
+
+.col-lg:hover{
+    box-shadow: 10px 10px 7px #708090;
+    background-color: #047195;
 }
