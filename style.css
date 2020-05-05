@@ -76,6 +76,10 @@ h1{
     text-align: center;
 }
 
+.col-lg h3{
+    font-size: 2.2rem;
+}
+
 h3{
     color: white;
     text-align: center;
