@@ -18,9 +18,9 @@
 
 html {
     font-size: 100%; // In most browsers, this defaults to 16 pixels
-  }
+}
 
-a:hover{
+.col-lg a:hover{
     color: rgb(122, 168, 255);
 }
 .jumbotron h1, p{
@@ -104,14 +104,6 @@ p{
 
 }
 
-.extra{
-    text-align: center;
-    color: #ffffff;
-    font-size: 1.8rem;
-    line-height: 65px;
-
-    
-}
 
 .col-sm-3:hover{
     box-shadow: 10px 10px 7px #708090;
@@ -128,23 +120,14 @@ p{
     background-color: #047195;
 }
 
-.firewall{
-    
-    background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(./firewall.jpg);
-}
+
 .data{
     
     background: 
     linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
-    ),
-    url(./datacenterpic.jpg);
+    )
 }
 
 .WFH{
@@ -153,8 +136,7 @@ p{
     linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
-    ),
-    url(./WFH.jpg);
+    )
 }
 
 .Hardware{
@@ -187,9 +169,20 @@ p{
     url(./General.png);
 }
 
+
+
+
+
+
 .badge{
-    margin-left: 11.5em;
     font-size: 2em;
     margin-bottom: 1em;
-
 }
+
+.extra{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
