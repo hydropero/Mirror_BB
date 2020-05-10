@@ -17,7 +17,7 @@
 }
 
 html {
-    font-size: 140%; // In most browsers, this defaults to 16 pixels
+    font-size: 100%; // In most browsers, this defaults to 16 pixels
 }
 
 .col-lg a:hover{
@@ -126,6 +126,7 @@ p{
     height: 25%;
     background-color: #A4A71E;
     text-align: center;
+    align-items: center;
     margin-top: auto;
     margin-bottom: auto;
     background: rgba(71, 123, 255, 0.5);
