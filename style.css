@@ -42,7 +42,9 @@ h1{
   .parallax {
     /* The image used */
     background-image: url("touch_translucient_icons.jpg");
-  
+    
+    /* create padding above */
+    margin-top: 10px;
     /* Set a specific height */
     height: 500px;
   
@@ -75,10 +77,12 @@ h1{
     font-size: 5rem;
     color: #ffffff;
     text-align: center;
+    padding: 30px;
 }
 
 .col-lg h3{
     font-size: 2.2rem;
+    border-radius: 15px;
 }
 
 h3{
@@ -107,7 +111,7 @@ p{
 
 .col-sm-4{
     padding: 15px;
-    background: #0898C7;
+    background: #;
     transition: all 300ms;
     padding-top: 30px;
 
@@ -120,21 +124,25 @@ p{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 25%;
-    background-color: black;
-    color: black;
+    background-color: #A4A71E;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+    background: rgba(71, 123, 255, 0.5);
+
 }
 .padding_related{
     height: 100%;
-    background-color: #541388;
+    background: rgba(214, 206, 21, .6);
     border-radius: 10px;
-
+  
+    
 }
 .middle{
     color: yellow;
 }
+
+
 
 .col-sm-3:hover{
     box-shadow: 10px 10px 7px #708090;
@@ -144,13 +152,23 @@ p{
 .col-lg{
     border-radius: 15px;
     padding-top: 40px;
+    padding-bottom: 10px;
     transition: all 300ms;
 }
 
 .col-lg:hover{
     box-shadow: 10px 10px 7px #708090;
     background-color: #047195;
-    border-radius: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.bgpaneling{
+    background-image: url(./lightingfromspace.jpg);
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+
 }
 
 
@@ -210,12 +228,12 @@ p{
     margin-bottom: 1em;
 }
 
-.row [class*="col-"]{
+.row .col-sm-4[class*="col-"]{
     margin-bottom: -99999px;
     padding-bottom: 99999px;
   }
   
-  .row{
+  .row .col-sm-4{
     overflow: hidden; 
   }
   
